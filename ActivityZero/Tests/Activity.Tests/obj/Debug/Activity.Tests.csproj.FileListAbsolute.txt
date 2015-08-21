@@ -126,3 +126,4 @@ D:\Private\ActivityOfficial\ActivityZero\Tests\Activity.Tests\bin\Debug\AutoMapp
 D:\Private\ActivityOfficial\ActivityZero\Tests\Activity.Tests\obj\Debug\Activity.Tests.csprojResolveAssemblyReference.cache
 D:\Private\ActivityOfficial\ActivityZero\Tests\Activity.Tests\obj\Debug\Activity.Tests.dll
 D:\Private\ActivityOfficial\ActivityZero\Tests\Activity.Tests\obj\Debug\Activity.Tests.pdb
+D:\Private\ActivityOfficial\ActivityZero\Tests\Activity.Tests\bin\Debug\AutoMapper.Net4.dll

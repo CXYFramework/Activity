@@ -95,6 +95,9 @@
   <ItemGroup>
     <Compile Include="ActivityApplicationModule.cs" />
     <Compile Include="ActivityAppServiceBase.cs" />
+    <Compile Include="MenuApp\Dto\MenuDto.cs" />
+    <Compile Include="MenuApp\IMenuAppService.cs" />
+    <Compile Include="MenuApp\MenuAppService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sessions\Dto\GetCurrentLoginInformationsOutput.cs" />
     <Compile Include="Sessions\Dto\TenantLoginInfoDto.cs" />
