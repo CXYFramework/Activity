@@ -109,10 +109,15 @@
     <Compile Include="Migrations\201506210746108_AbpZero_Initial.Designer.cs">
       <DependentUpon>201506210746108_AbpZero_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201508210706388_AddMenu.cs" />
+    <Compile Include="Migrations\201508210706388_AddMenu.Designer.cs">
+      <DependentUpon>201508210706388_AddMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ActivityDataModule.cs" />
     <Compile Include="Migrations\SeedData\DefaultTenantRoleAndUserBuilder.cs" />
     <Compile Include="Migrations\SeedData\InitialDataBuilder.cs" />
+    <Compile Include="Migrations\SeedData\MenuSeedData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -128,6 +133,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201506210746108_AbpZero_Initial.resx">
       <DependentUpon>201506210746108_AbpZero_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201508210706388_AddMenu.resx">
+      <DependentUpon>201508210706388_AddMenu.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

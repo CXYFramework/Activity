@@ -86,6 +86,7 @@
     <Compile Include="ActivityConsts.cs" />
     <Compile Include="ActivityCoreModule.cs" />
     <Compile Include="Authorization\PermissionChecker.cs" />
+    <Compile Include="Entities\Menu.cs" />
     <Compile Include="MultiTenancy\Tenant.cs" />
     <Compile Include="MultiTenancy\TenantManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

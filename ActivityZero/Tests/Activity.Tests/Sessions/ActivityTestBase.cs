@@ -31,6 +31,8 @@ namespace Activity.Tests.Sessions
             //Seed initial data
             UsingDbContext(context => new InitialDataBuilder(context).Build());
 
+
+
             LoginAsDefaultTenantAdmin();
         }
 

@@ -3,7 +3,8 @@ using Abp.Zero.EntityFramework;
 using Activity.Authorization.Roles;
 using Activity.MultiTenancy;
 using Activity.Users;
-
+using System.Data.Entity;
+using Activity.Entities;
 namespace Activity.EntityFramework
 {
     public class ActivityDbContext : AbpZeroDbContext<Tenant, Role, User>
@@ -13,6 +14,8 @@ namespace Activity.EntityFramework
         //Example:
         //public virtual IDbSet<User> Users { get; set; }
 
+        public virtual IDbSet<Menu> Menus { get; set; }
+       
         /* NOTE: 
          *   Setting "Default" to base class helps us when working migration commands on Package Manager Console.
          *   But it may cause problems when working Migrate.exe of EF. If you will apply migrations on command line, do not
@@ -39,6 +42,15 @@ namespace Activity.EntityFramework
             : base(connection, true)
         {
 
+        }
+
+        protected override void OnModelCreating(System.Data.Entity.DbModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Properties().Where(p => p.DeclaringType == typeof(string)).Configure(p => p.HasMaxLength(1000));
+
+            modelBuilder.Properties().Where(p => p.DeclaringType == typeof(string)).Configure(p => p.HasColumnType("NVarchar"));
         }
     }
 }

@@ -14,6 +14,7 @@ namespace Activity.Migrations.SeedData
         public void Build()
         {
             new DefaultTenantRoleAndUserBuilder(_context).Build();
+            new MenuBuilder(_context).Build();
         }
     }
 }
