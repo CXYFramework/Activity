@@ -667,3 +667,32 @@ DEBUG 2015-08-21 16:13:53,028 [10   ] Abp.Localization.LocalizationManager     -
 DEBUG 2015-08-21 16:13:53,028 [10   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
 DEBUG 2015-08-21 16:13:53,112 [10   ] Abp.Localization.LocalizationManager     - Initialized localization source: Activity
 DEBUG 2015-08-21 16:13:53,112 [10   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-08-24 22:03:50,315 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-08-24 22:05:20,472 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-08-24 22:07:26,253 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-08-24 22:07:27,957 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-08-24 22:07:27,962 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-08-24 22:07:27,965 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-08-24 22:07:27,965 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-08-24 22:07:27,965 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-08-24 22:07:27,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-08-24 22:07:27,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-08-24 22:07:27,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-08-24 22:07:27,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-08-24 22:07:27,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Activity.ActivityApplicationModule, Activity.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-08-24 22:07:27,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Activity.ActivityCoreModule, Activity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-08-24 22:07:27,967 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Activity.ActivityDataModule, Activity.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-08-24 22:07:27,967 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Activity.Web.ActivityWebModule, Activity.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-08-24 22:07:27,967 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Activity.ActivityWebApiModule, Activity.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-08-24 22:07:27,988 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-08-24 22:07:29,423 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 3 classes defines auto mapping attributes
+DEBUG 2015-08-24 22:07:29,423 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Activity.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2015-08-24 22:07:29,663 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Activity.Sessions.Dto.UserLoginInfoDto
+DEBUG 2015-08-24 22:07:29,672 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Activity.MenuApp.Dto.MenuDto
+DEBUG 2015-08-24 22:07:30,944 [1    ] Default                                  - Dynamic web api controller is created for type 'Activity.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2015-08-24 22:07:30,946 [1    ] Default                                  - Dynamic web api controller is created for type 'Activity.MenuApp.IMenuAppService' with service name 'app/menu'.
+DEBUG 2015-08-24 22:07:32,057 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-08-24 22:07:32,061 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-08-24 22:07:32,062 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-08-24 22:07:32,105 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Activity
+DEBUG 2015-08-24 22:07:32,105 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb

@@ -50,7 +50,7 @@
     </Reference>
     <Reference Include="Abp.EntityFramework, Version=0.6.3.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\ActivityZero\packages\Abp.EntityFramework.0.6.3.1\lib\net451\Abp.EntityFramework.dll</HintPath>
+      <HintPath>..\packages\Abp.EntityFramework.0.6.3.1\lib\net451\Abp.EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="Abp.Web, Version=0.6.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Abp.Web.0.6.3.0\lib\net451\Abp.Web.dll</HintPath>
