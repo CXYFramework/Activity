@@ -12,9 +12,9 @@ namespace Activity.MenuApp.Dto
      [AutoMapFrom(typeof(Menu))]
     public class MenuDto : EntityDto
     {
-        public string Name { get; set; }
-        public string DisplayName { get; set; }
-        public int ParentId { get; set; }
+       
+        public string Text { get; set; }
+        public string Parent { get; set; }
         public DateTime? CreationTime { get; set; }
         public DateTime? LastModificationTime { get; set; }
     }

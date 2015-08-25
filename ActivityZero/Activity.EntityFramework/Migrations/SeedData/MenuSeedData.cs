@@ -24,21 +24,27 @@ namespace Activity.Migrations.SeedData
 
         private void CreatMenu()
         {
-            Menu menu = new Menu();
+            for (int i = 1; i <= 5; i++)
+            {
+               
+                Menu menu = new Menu();
+                menu.Text = "Parent" + i;
 
-            menu.Name = "Parent1";
-            menu.DisplayName = "Parent1";
-            menu.ParentId = 0;
-            _context.Menus.Add(menu);
 
-            int menuId = _context.SaveChanges();
-            menu.Name = "Parent1";
-            menu.DisplayName = "Parent1";
-            menu.ParentId = 0;
-            _context.Menus.Add(new Menu { Name = "Child1", DisplayName = "Child1", ParentId = menuId });
-           
-            
-            _context.SaveChanges();
+                menu.Parent = 0;
+                _context.Menus.Add(menu);
+                _context.SaveChanges();
+
+                Menu menuChild = new Menu();
+
+                menuChild.Parent = menu.Id;
+                menuChild.Text = "Child" + i;
+                _context.Menus.Add(menuChild);
+
+            }
+          
+
+
 
         }
     }

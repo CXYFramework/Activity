@@ -14,9 +14,9 @@ namespace Activity.MenuApp
     {
         IRepository<Menu> _menuRepository;
         
-        public MenuAppService(IRepository<Menu> _menuRepository)
+        public MenuAppService(IRepository<Menu> menuRepository)
         {
-            this._menuRepository = _menuRepository;
+            this._menuRepository = menuRepository;
  
         }
         public int InsertOrUpdateMenuAndGetId(Dto.MenuDto menuDto)

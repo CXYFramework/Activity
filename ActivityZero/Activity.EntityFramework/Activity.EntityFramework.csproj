@@ -109,9 +109,17 @@
     <Compile Include="Migrations\201506210746108_AbpZero_Initial.Designer.cs">
       <DependentUpon>201506210746108_AbpZero_Initial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201508210706388_AddMenu.cs" />
-    <Compile Include="Migrations\201508210706388_AddMenu.Designer.cs">
-      <DependentUpon>201508210706388_AddMenu.cs</DependentUpon>
+    <Compile Include="Migrations\201508220655211_addMenu.cs" />
+    <Compile Include="Migrations\201508220655211_addMenu.Designer.cs">
+      <DependentUpon>201508220655211_addMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201508251301271_updateMenu.cs" />
+    <Compile Include="Migrations\201508251301271_updateMenu.Designer.cs">
+      <DependentUpon>201508251301271_updateMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201508251322283_updateMenu2.cs" />
+    <Compile Include="Migrations\201508251322283_updateMenu2.Designer.cs">
+      <DependentUpon>201508251322283_updateMenu2.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ActivityDataModule.cs" />
@@ -134,8 +142,14 @@
     <EmbeddedResource Include="Migrations\201506210746108_AbpZero_Initial.resx">
       <DependentUpon>201506210746108_AbpZero_Initial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201508210706388_AddMenu.resx">
-      <DependentUpon>201508210706388_AddMenu.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201508220655211_addMenu.resx">
+      <DependentUpon>201508220655211_addMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201508251301271_updateMenu.resx">
+      <DependentUpon>201508251301271_updateMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201508251322283_updateMenu2.resx">
+      <DependentUpon>201508251322283_updateMenu2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

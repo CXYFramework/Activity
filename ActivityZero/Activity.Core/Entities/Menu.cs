@@ -11,8 +11,7 @@ namespace Activity.Entities
     public class Menu : AuditedEntity
     {
         [Required]
-        public string Name { get; set; }
-        public string DisplayName { get; set; }
-        public int ParentId { get; set; }
+        public string Text { get; set; }
+        public int Parent { get; set; }
     }
 }
