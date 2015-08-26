@@ -15,6 +15,10 @@ namespace Activity.EntityFramework
         //public virtual IDbSet<User> Users { get; set; }
 
         public virtual IDbSet<Menu> Menus { get; set; }
+        public virtual IDbSet<Activity.Entities.Activity> Activities { get; set; }
+        public virtual IDbSet<Activity.Entities.ActivityItem> ActiviyItems { get; set; }
+        public virtual IDbSet<Activity.Entities.ActivityCatagory> ActivityCatagories { get; set; }
+        public virtual IDbSet<Activity.Entities.Discuss> Discusses { get; set; }
        
         /* NOTE: 
          *   Setting "Default" to base class helps us when working migration commands on Package Manager Console.

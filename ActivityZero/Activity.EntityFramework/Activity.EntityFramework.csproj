@@ -113,6 +113,14 @@
     <Compile Include="Migrations\201508210706388_AddMenu.Designer.cs">
       <DependentUpon>201508210706388_AddMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201508261429326_Add Acitvity.cs" />
+    <Compile Include="Migrations\201508261429326_Add Acitvity.Designer.cs">
+      <DependentUpon>201508261429326_Add Acitvity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201508261440361_Update Acitvity.cs" />
+    <Compile Include="Migrations\201508261440361_Update Acitvity.Designer.cs">
+      <DependentUpon>201508261440361_Update Acitvity.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ActivityDataModule.cs" />
     <Compile Include="Migrations\SeedData\DefaultTenantRoleAndUserBuilder.cs" />
@@ -136,6 +144,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201508210706388_AddMenu.resx">
       <DependentUpon>201508210706388_AddMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201508261429326_Add Acitvity.resx">
+      <DependentUpon>201508261429326_Add Acitvity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201508261440361_Update Acitvity.resx">
+      <DependentUpon>201508261440361_Update Acitvity.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
