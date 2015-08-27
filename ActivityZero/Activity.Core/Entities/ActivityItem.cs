@@ -10,11 +10,11 @@ namespace Activity.Entities
 {
     public class ActivityItem: AuditedEntity<long>
     {
-        public virtual DateTime StartTime { get; set; }
-        public virtual string Place { get; set; }
-        public virtual string DoWhat { get; set; }
-        public virtual int Budget { get; set; }
-        public virtual int SequenceNO { get; set; }
+        public DateTime StartTime { get; set; }
+        public string Place { get; set; }
+        public string DoWhat { get; set; }
+        public int Budget { get; set; }
+        public int SequenceNO { get; set; }
 
         public virtual Activity Activity { get; set;}
     }

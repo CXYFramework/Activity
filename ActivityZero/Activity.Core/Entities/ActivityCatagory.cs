@@ -10,6 +10,6 @@ namespace Activity.Entities
 {
     public class ActivityCatagory: AuditedEntity
     {
-        public virtual string Name { get; set; }
+        public string Name { get; set; }
     }
 }

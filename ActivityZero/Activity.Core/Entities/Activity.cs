@@ -10,15 +10,13 @@ namespace Activity.Entities
 {
     public class Activity: AuditedEntity<long>
     {
-        public virtual string Title { get; set; }
-        public virtual DateTime Createtime { get; set; }
+        public string Title { get; set; }
         public virtual ActivityCatagory Catagory { get; set; }
         public virtual ICollection<ActivityItem> ActivityItems { get; set; }
         public virtual ICollection<Discuss> Discusses { get; set; }
 
         public Activity()
         {
-            Createtime = DateTime.Now;
             ActivityItems = new HashSet<ActivityItem>();
             Discusses = new HashSet<Discuss>();
         }
