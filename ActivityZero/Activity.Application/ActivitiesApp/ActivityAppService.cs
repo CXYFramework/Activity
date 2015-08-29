@@ -1,5 +1,5 @@
 ﻿using Abp.Domain.Repositories;
-using Activity.Activities.Dto;
+using Activity.ActivitiesApp.Dto;
 using AutoMapper;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 //using Activity.Entities;
 
-namespace Activity.Activities
+namespace Activity.ActivitiesApp
 {
     public class ActivityAppService : ActivityAppServiceBase, IActivityAppService
     {

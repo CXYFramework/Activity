@@ -5,10 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Activity.Activities.Dto
+namespace Activity.ActivitiesApp.Dto
 {
-    public class GetActivitiesInput : IInputDto
+    public class GetActivitiesOutput : IOutputDto
     {
-        public int? ActivityId { get; set; }
+        public List<ActivityDto> Activities { get; set; }
     }
 }

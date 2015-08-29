@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Activity.Activities.Dto
+namespace Activity.ActivitiesApp.Dto
 {
     public class ActivityDto : EntityDto
     {

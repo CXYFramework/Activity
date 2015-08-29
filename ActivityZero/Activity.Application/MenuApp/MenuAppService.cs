@@ -33,6 +33,11 @@ namespace Activity.MenuApp
         {
             return Mapper.Map <MenuDto> (_menuRepository.Get(Id));
         }
+
+        public int TestTFS()
+        {
+            return 1;
+        }
        
     }
 }

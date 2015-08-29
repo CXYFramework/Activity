@@ -13,6 +13,10 @@
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -105,9 +109,13 @@
   <ItemGroup>
     <Compile Include="EntityFramework\ActivityDbContext.cs" />
     <Compile Include="EntityFramework\Repositories\ActivityRepositoryBase.cs" />
-    <Compile Include="Migrations\201508290714284_Create DB.cs" />
-    <Compile Include="Migrations\201508290714284_Create DB.Designer.cs">
-      <DependentUpon>201508290714284_Create DB.cs</DependentUpon>
+    <Compile Include="Migrations\201506210746108_AbpZero_Initial.cs" />
+    <Compile Include="Migrations\201506210746108_AbpZero_Initial.Designer.cs">
+      <DependentUpon>201506210746108_AbpZero_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201508210706388_AddMenu.cs" />
+    <Compile Include="Migrations\201508210706388_AddMenu.Designer.cs">
+      <DependentUpon>201508210706388_AddMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ActivityDataModule.cs" />
@@ -127,8 +135,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201508290714284_Create DB.resx">
-      <DependentUpon>201508290714284_Create DB.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201506210746108_AbpZero_Initial.resx">
+      <DependentUpon>201506210746108_AbpZero_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201508210706388_AddMenu.resx">
+      <DependentUpon>201508210706388_AddMenu.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

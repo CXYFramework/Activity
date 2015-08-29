@@ -1,12 +1,12 @@
 ﻿using Abp.Application.Services;
-using Activity.Activities.Dto;
+using Activity.ActivitiesApp.Dto;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Activity.Activities
+namespace Activity.ActivitiesApp
 {
     public interface IActivityAppService : IApplicationService
     {

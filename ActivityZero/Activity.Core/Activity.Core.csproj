@@ -13,6 +13,10 @@
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -88,10 +92,10 @@
     <Compile Include="Authorization\PermissionChecker.cs" />
     <Compile Include="Entities\Activity.cs" />
     <Compile Include="Entities\ActivityCatagory.cs" />
+    <Compile Include="Entities\ActivityItem.cs" />
     <Compile Include="Entities\Discuss.cs" />
     <Compile Include="Entities\Intention.cs" />
     <Compile Include="Entities\Menu.cs" />
-    <Compile Include="Entities\ActivityItem.cs" />
     <Compile Include="MultiTenancy\Tenant.cs" />
     <Compile Include="MultiTenancy\TenantManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

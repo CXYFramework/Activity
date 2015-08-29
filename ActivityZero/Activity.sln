@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Activity.Core", "Activity.Core\Activity.Core.csproj", "{17298EA0-AF73-4F30-B6F1-2066100D7D74}"
 EndProject
@@ -18,6 +18,31 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Activity.Tests", "Tests\Activity.Tests\Activity.Tests.csproj", "{C602C47E-F379-40A3-A146-4F19105B3491}"
 EndProject
 Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://activityproject.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Activity.Core\\Activity.Core.csproj
+		SccProjectName1 = Activity.Core
+		SccLocalPath1 = Activity.Core
+		SccProjectUniqueName2 = Activity.Application\\Activity.Application.csproj
+		SccProjectName2 = Activity.Application
+		SccLocalPath2 = Activity.Application
+		SccProjectUniqueName3 = Activity.EntityFramework\\Activity.EntityFramework.csproj
+		SccProjectName3 = Activity.EntityFramework
+		SccLocalPath3 = Activity.EntityFramework
+		SccProjectUniqueName4 = Activity.Web\\Activity.Web.csproj
+		SccProjectName4 = Activity.Web
+		SccLocalPath4 = Activity.Web
+		SccProjectUniqueName5 = Activity.WebApi\\Activity.WebApi.csproj
+		SccProjectName5 = Activity.WebApi
+		SccLocalPath5 = Activity.WebApi
+		SccProjectUniqueName6 = Tests\\Activity.Tests\\Activity.Tests.csproj
+		SccProjectTopLevelParentUniqueName6 = Activity.sln
+		SccProjectName6 = Tests/Activity.Tests
+		SccLocalPath6 = Tests\\Activity.Tests
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU

@@ -13,6 +13,10 @@
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -93,11 +97,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Activities\ActivityAppService.cs" />
-    <Compile Include="Activities\Dto\ActivityDto.cs" />
-    <Compile Include="Activities\Dto\GetActivitiesInput.cs" />
-    <Compile Include="Activities\Dto\GetActivitiesOutput.cs" />
-    <Compile Include="Activities\IActivityAppService.cs" />
+    <Compile Include="ActivitiesApp\ActivityAppService.cs" />
+    <Compile Include="ActivitiesApp\Dto\ActivityDto.cs" />
+    <Compile Include="ActivitiesApp\Dto\GetActivitiesInput.cs" />
+    <Compile Include="ActivitiesApp\Dto\GetActivitiesOutput.cs" />
+    <Compile Include="ActivitiesApp\IActivityAppService.cs" />
     <Compile Include="ActivityApplicationModule.cs" />
     <Compile Include="ActivityAppServiceBase.cs" />
     <Compile Include="MenuApp\Dto\MenuDto.cs" />
@@ -120,6 +124,7 @@
       <Name>Activity.Core</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets" Condition="Exists('..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

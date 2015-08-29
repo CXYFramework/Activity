@@ -11,7 +11,7 @@ namespace Activity.MenuApp
     public interface IMenuAppService :IApplicationService
     {
         int InsertOrUpdateMenuAndGetId(MenuDto menuDto);
-       
+        
 
         IList<MenuDto> GetAllMenus();
 
