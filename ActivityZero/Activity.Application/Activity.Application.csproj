@@ -93,6 +93,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activities\ActivityAppService.cs" />
+    <Compile Include="Activities\Dto\ActivityDto.cs" />
+    <Compile Include="Activities\Dto\GetActivitiesInput.cs" />
+    <Compile Include="Activities\Dto\GetActivitiesOutput.cs" />
+    <Compile Include="Activities\IActivityAppService.cs" />
     <Compile Include="ActivityApplicationModule.cs" />
     <Compile Include="ActivityAppServiceBase.cs" />
     <Compile Include="MenuApp\Dto\MenuDto.cs" />
